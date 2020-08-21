@@ -67,32 +67,69 @@ width:60%;
   z-index: 1;
 }
 
-.ear-right .inner-ear{
-
-}
 .eye-left{
-
+  position: absolute;
+ background: white;
+ width: 30%;
+ height: 33%;
+ top: 25%;
+ left: 21%;
+ border-radius: 50%;
+ z-index: 3;
 }
 
-.eye .pupil{
-
+.pupil{
+  position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
 }
 
 .eye-right{
-
+  position: absolute;
+   background: white;
+   width: 30%;
+   height: 33%;
+   top: 25%;
+   right: 21%;
+   border-radius: 50%;
+   z-index: 2;
 }
-.eye-right .pupil{
 
-}
 
 .nose{
-
+position: absolute;
+width: 25%;
+height: 42.5%;
+background-color: #cd9536;
+top: 45%;
+left: 37%;;
+z-index: 4;
+border-radius: 50px;
 }
 
 .hair-left{
+  position: absolute;
+top: -8%;
+left: 30%;
+width: 20%;
+height: 20%;
+background:  #A6BECF;
+-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
 }
 
 .hair-right{
-
+  position: absolute;
+   top: -4%;
+   left: 48%;
+   width: 20%;
+  height: 20%;
+  background:  #A6BECF;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
